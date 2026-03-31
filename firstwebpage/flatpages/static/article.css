@@ -1,0 +1,108 @@
+/* articles/static/css/article.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #5ce095;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Стили для шапки */
+.header {
+    padding: 40px 20px; 
+    margin-bottom: 40px;
+}
+
+.header img {
+    display: block;
+    width: 318px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Общие стили для контента */
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.article {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* Стили для списка статей (archive.html) */
+.post {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.post-title {
+    margin-bottom: 15px;
+}
+
+.post-title a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.post-title a:hover {
+    color: #f1c40f;
+    text-decoration: underline;
+}
+
+/* Стили для мета-информации */
+.post-meta, .article-meta {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+    font-weight: bold;
+}
+
+.article-created-date {
+    text-align: right;
+    font-style: italic;
+}
+
+/* Стили для текста статьи */
+.post-text {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.article-text {
+    margin-top: 30px;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+/* Адаптивность */
+@media (max-width: 1024px) {
+    .archive, .article {
+        width: 90%;
+    }
+}
+

@@ -1,3 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5ce095;
+    font-family: Tahoma, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.article-info {
+    font-weight: italic;
+}
+
+.article-text {
+    font-size: 1.1em;
+}
+
 img {
     display: block;  
     margin-left: auto;

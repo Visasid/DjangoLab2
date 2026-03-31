@@ -1,0 +1,32 @@
+<!-- flatpages/templates/article.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ post.title }} - Блог</title>
+    {% load static %}
+    <link rel="stylesheet" href="{{ STATIC_URL }}/static/article.css">
+</head>
+<body class="article">
+    <div class="header">
+        <img src="{{ STATIC_URL }}/static/cat.jpg" alt="Логотип блога">
+        <h1>{{ post.title }}</h1>
+    </div>
+    
+    <div class="article-content">
+        <div class="back-link">
+            <a href="{% url 'archive' %}">← Все записи</a>
+        </div>
+        
+        <div class="article-meta">
+            <span class="article-author">{{ post.author }}</span>
+            <span class="article-created-date">{{ post.created_date|date:"d.m.Y" }}</span>
+        </div>
+        
+        <div class="article-text">
+            {{ post.text|linebreaks }}
+        </div>
+    </div>
+</body>
+</html>
