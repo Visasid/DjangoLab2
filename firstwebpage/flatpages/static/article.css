@@ -20,7 +20,7 @@ body {
 
 .header img {
     display: block;
-    width: 318px;
+    width: 158px;
     margin-bottom: 20px;
 }
 
@@ -91,12 +91,14 @@ body {
 .post-text {
     margin-top: 15px;
     line-height: 1.6;
+    overflow-wrap: break-word;
 }
 
 .article-text {
     margin-top: 30px;
     line-height: 1.8;
     font-size: 1.1em;
+    overflow-wrap: break-word;
 }
 
 /* Адаптивность */

@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+    background: #5ce095;
+    font-family: Tahoma, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+input[type="text"] {
+    font-family: inherit; /* 1 */
+    font-size: inherit; /* 1 */
+    line-height: inherit; /* 1 */
+    margin: 0; /* 2 */
+    width: 50%;
+}
+
+textarea {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+textarea {
+    font-family: inherit;
+    font-size: inherit; /* 1 */
+    line-height: inherit; /* 1 */
+    margin: 0; /* 2 */
+}
