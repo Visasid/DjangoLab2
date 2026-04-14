@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+    background: #5ce095;
+    font-family: Tahoma, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+input[type="text"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    width: 50%;
+}
+
+input[type="password"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    width: 50%;
+}
+
+input[type="email"] {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    width: 50%;
+}

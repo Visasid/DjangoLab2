@@ -26,4 +26,6 @@ urlpatterns = [
 #   path(r'^article/(?P<article_id>\d+)$', views.get_article, name='get_article'),
     path('article/<int:article_id>/', views.get_article, name='get_article'),
     path('article/new/', views.create_post, name='create_post'),
+    path('register', views.register, name='register'),
+    path('login', views.log_in, name='login'),
 ]
