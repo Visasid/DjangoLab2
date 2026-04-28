@@ -9,6 +9,16 @@ body {
     line-height: 1.6;
 }
 
+.one-post-folded .article-author {
+    display: none;
+}
+.one-post-folded .article-text {
+    display: none;
+}
+.one-post-folded .article-created-date {
+    display: none;
+}
+
 .article-info {
     font-weight: italic;
 }
